@@ -1,11 +1,10 @@
 services:
-
   ir2:
     build:
       context: .
       dockerfile: Dockerfile
-    platform: linux/amd64
     working_dir: /app
+    command: sleep infinity
     volumes:
       - .:/app
       - huggingface_cache:/root/.cache/huggingface
@@ -16,8 +15,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.gpl
-    platform: linux/amd64
     working_dir: /app/gpl
+    command: sleep infinity
     volumes:
       - .:/app
       - huggingface_cache:/root/.cache/huggingface

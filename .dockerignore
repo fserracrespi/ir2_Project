@@ -1,0 +1,40 @@
+
+# Git
+.git
+**/.git
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Datasets and outputs
+data/
+models/
+output/
+outputs/
+generated/
+runs/
+**/runs/
+
+# Temporary files
+*.log
+*.tmp

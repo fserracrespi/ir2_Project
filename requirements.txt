@@ -5,3 +5,5 @@ nltk
 rank-bm25
 pytrec-eval-terrier
 sentence-transformers>=3.3
+torch==2.14.1+cpu
+ipykernel

@@ -1,29 +1,31 @@
-
 FROM python:3.10-slim-bookworm
 
 ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1
 
 WORKDIR /app/gpl
 
 RUN apt-get update && \
-    apt-get install -y \
+    apt-get install -y --no-install-recommends \
         build-essential \
         git \
+        ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
 RUN python -m pip install --upgrade pip
 
-# Instalar PyTorch CPU
-RUN pip install torch==2.2.2 \
+RUN python -m pip install \
+    torch==2.2.2 \
+    torchvision==0.17.2 \
     --index-url https://download.pytorch.org/whl/cpu
 
 COPY requirements-gpl.txt /tmp/requirements-gpl.txt
 
-RUN pip install -r /tmp/requirements-gpl.txt
+RUN python -m pip install -r /tmp/requirements-gpl.txt
 
-# Instalar GPL sin alterar dependencias
 COPY gpl/ /app/gpl/
-RUN pip install --no-deps -e /app/gpl
 
-CMD ["bash"]
+RUN python -m pip install --no-deps -e /app/gpl
+
+CMD ["sleep", "infinity"]

@@ -1,0 +1,25 @@
+{
+  "name": "GPL Training",
+  "dockerComposeFile": "../../compose.yaml",
+  "service": "gpl",
+  "runServices": ["gpl"],
+  "workspaceFolder": "/app",
+  "shutdownAction": "none",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.analysis.extraPaths": [
+          "/app/gpl"
+        ],
+        "python.terminal.activateEnvironment": false
+      }
+    }
+  }
+}
