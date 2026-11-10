@@ -20,7 +20,7 @@ def row(pair, r, name):
 def main():
     base = testbed.stored()
     pairs = []
-    for path in sorted(testbed.ROOT.glob("pairs/[0-9]*/results.json")):
+    for path in sorted(testbed.ROOT.glob("pairs/*/results_*.json")):
         pairs.append((json.load(open(path)), f"pairs/{path.parent.name}/"))
     lines = ["# Shared results table", "",
              "Built by `build_table.py` from `baselines/scores.json` and `pairs/*/results.json`: do not edit by hand.",

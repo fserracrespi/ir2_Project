@@ -1,0 +1,58 @@
+{
+ "pair": "FSC_gpl",
+ "method": "GPL_Smoke",
+ "datasets": {
+  "scifact": {
+   "n_queries": 300,
+   "ndcg10": 0.7137,
+   "recall100": 0.9533,
+   "baseline": {
+    "name": "bm25",
+    "ndcg10": 0.6762,
+    "recall100": 0.9182
+   },
+   "ndcg10_vs_baseline": {
+    "delta": 0.0375,
+    "p": 0.027261539051171863,
+    "ci95": [
+     0.0049,
+     0.071
+    ]
+   },
+   "recall100_vs_baseline": {
+    "delta": 0.0351,
+    "p": 0.03733407034437083,
+    "ci95": [
+     0.0018,
+     0.0694
+    ]
+   }
+  },
+  "nfcorpus": {
+   "n_queries": 323,
+   "ndcg10": 0.3429,
+   "recall100": 0.3061,
+   "baseline": {
+    "name": "bm25",
+    "ndcg10": 0.3208,
+    "recall100": 0.2459
+   },
+   "ndcg10_vs_baseline": {
+    "delta": 0.0221,
+    "p": 0.025042712372787736,
+    "ci95": [
+     0.0031,
+     0.0415
+    ]
+   },
+   "recall100_vs_baseline": {
+    "delta": 0.0602,
+    "p": 5.92461896702579e-10,
+    "ci95": [
+     0.0421,
+     0.0792
+    ]
+   }
+  }
+ }
+}

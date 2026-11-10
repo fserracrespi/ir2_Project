@@ -13,7 +13,8 @@ Pair 00 is the instructor's worked example from the model presentation.
 | *bge-small-en-v1.5* | 0.710 | 0.948 | | | |
 | *RRF (BM25 + MiniLM)* | 0.718 | 0.948 | | | |
 | *BM25 top-100 + cross-encoder* | 0.688 | 0.918 | | | |
-| Beyond Abstracts (ModernBERT, both_random) ([00-beyond-abstracts](pairs/00-beyond-abstracts/)) | 0.717 | 0.982 | bge-small-en-v1.5 | +0.007 [-0.020, +0.034] | 0.626 |
+| GPL_Smoke ([FSC_gpl](pairs/FSC_gpl/)) | 0.714 | 0.953 | bge-small-en-v1.5 | +0.004 [-0.009, +0.017] | 0.555 |
+| GPL_Smoke ([FSC_gpl](pairs/FSC_gpl/)) | 0.714 | 0.953 | BM25 | **+0.037 [+0.005, +0.071]** | 0.027 |
 
 ## NFCorpus
 
@@ -24,7 +25,8 @@ Pair 00 is the instructor's worked example from the model presentation.
 | *bge-small-en-v1.5* | 0.340 | 0.304 | | | |
 | *RRF (BM25 + MiniLM)* | 0.342 | 0.310 | | | |
 | *BM25 top-100 + cross-encoder* | 0.347 | 0.246 | | | |
-| Beyond Abstracts (ModernBERT, both_random) ([00-beyond-abstracts](pairs/00-beyond-abstracts/)) | 0.313 | 0.324 | bge-small-en-v1.5 | **-0.027 [-0.047, -0.008]** | 0.006 |
+| GPL_Smoke ([FSC_gpl](pairs/FSC_gpl/)) | 0.343 | 0.306 | bge-small-en-v1.5 | +0.003 [-0.005, +0.010] | 0.497 |
+| GPL_Smoke ([FSC_gpl](pairs/FSC_gpl/)) | 0.343 | 0.306 | BM25 | **+0.022 [+0.003, +0.042]** | 0.025 |
 
 ## ArguAna
 
@@ -35,4 +37,3 @@ Pair 00 is the instructor's worked example from the model presentation.
 | *bge-small-en-v1.5* | 0.606 | 0.986 | | | |
 | *RRF (BM25 + MiniLM)* | 0.549 | 0.985 | | | |
 | *BM25 top-100 + cross-encoder* | 0.422 | 0.969 | | | |
-| Beyond Abstracts (ModernBERT, both_random) ([00-beyond-abstracts](pairs/00-beyond-abstracts/)) | 0.461 | 0.983 | bge-small-en-v1.5 | **-0.146 [-0.165, -0.126]** | < 0.001 |
