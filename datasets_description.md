@@ -7,7 +7,6 @@
 | Document style | Paper title + abstract | Medical abstract | Counter-argument; `title` field holds topic tags |
 | Relevance labels | Binary: 1 (339 judgments) | Graded: 1 (11,758), 2 (576) | Binary: 1 (1,406) |
 | Relevant docs per query | 1.1 | 38.2 | 1.0 |
-| BEIR splits | train, test | train, dev, test | test only |
 | ID format | numbers (`4983`) | `PLAIN-2` / `MED-10` | `test-sport-…-pro02a` → `…-pro02b` |
 
 Sources: counts and labels from `testbed.load`; task categories, splits and relevant docs per query from the [BEIR dataset card on Hugging Face](https://huggingface.co/datasets/BeIR/beir).
