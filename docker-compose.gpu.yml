@@ -1,0 +1,38 @@
+
+services:
+  ir2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app
+    command: sleep infinity
+    volumes:
+      - .:/app
+      - huggingface_cache:/root/.cache/huggingface
+    stdin_open: true
+    tty: true
+
+  gpl:
+    build:
+      context: .
+      dockerfile: Dockerfile.gpl.gpu
+    working_dir: /app/gpl
+    command: sleep infinity
+
+    # NVIDIA GPU
+    gpus: all
+
+    environment:
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility
+      CUDA_VISIBLE_DEVICES: "0"
+
+    volumes:
+      - .:/app
+      - huggingface_cache:/root/.cache/huggingface
+
+    stdin_open: true
+    tty: true
+
+volumes:
+  huggingface_cache:

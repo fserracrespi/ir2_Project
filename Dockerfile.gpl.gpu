@@ -1,0 +1,38 @@
+
+FROM python:3.10-slim-bookworm
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1
+
+WORKDIR /app/gpl
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        build-essential \
+        git \
+        ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN python -m pip install --upgrade pip
+
+# PyTorch with NVIDIA CUDA 12.1
+RUN python -m pip install \
+    torch==2.2.2 \
+    torchvision==0.17.2 \
+    --index-url https://download.pytorch.org/whl/cu121
+
+# GPL dependencies
+COPY requirements-gpl.txt /tmp/requirements-gpl.txt
+
+RUN python -m pip install -r /tmp/requirements-gpl.txt
+
+# GPL source code
+COPY gpl/ /app/gpl/
+
+RUN python -m pip install --no-deps -e /app/gpl
+
+# Verify that PyTorch still has CUDA support
+RUN python -c "import torch; assert torch.version.cuda is not None, 'CUDA-enabled PyTorch required'"
+
+CMD ["sleep", "infinity"]
