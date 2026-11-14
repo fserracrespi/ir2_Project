@@ -1,0 +1,30 @@
+[2026-11-14T00:27:07,330][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [12c96a3cf7b8] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:174) ~[elasticsearch-7.9.1.jar:7.9.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161) ~[elasticsearch-7.9.1.jar:7.9.1]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86) ~[elasticsearch-7.9.1.jar:7.9.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127) ~[elasticsearch-cli-7.9.1.jar:7.9.1]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[elasticsearch-cli-7.9.1.jar:7.9.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126) ~[elasticsearch-7.9.1.jar:7.9.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[elasticsearch-7.9.1.jar:7.9.1]
+Caused by: java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:111) ~[elasticsearch-7.9.1.jar:7.9.1]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178) ~[elasticsearch-7.9.1.jar:7.9.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393) ~[elasticsearch-7.9.1.jar:7.9.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170) ~[elasticsearch-7.9.1.jar:7.9.1]
+	... 6 more
+uncaught exception in thread [main]
+java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:111)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:393)
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:170)
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:161)
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:86)
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:127)
+	at org.elasticsearch.cli.Command.main(Command.java:90)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:126)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92)
+For complete error details, refer to the log at /tmp/elasticsearch-7.9.1/logs/elasticsearch.log
+2026-11-14 00:27:07,777067 UTC [15202] ERROR CLogger.cc@310 Cannot log to named pipe /tmp/elasticsearch-6000861353888658241/controller_log_14943 as it could not be opened for writing
+2026-11-14 00:27:07,777161 UTC [15202] INFO  Main.cc@103 Parent process died - ML controller exiting

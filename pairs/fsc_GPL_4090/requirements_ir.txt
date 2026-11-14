@@ -1,0 +1,13 @@
+# PyTorch CUDA 12.8
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+
+# IR2 dependencies
+numpy
+scipy
+scikit-learn
+nltk
+rank-bm25
+pytrec-eval-terrier
+sentence-transformers>=3.3
+ipykernel
