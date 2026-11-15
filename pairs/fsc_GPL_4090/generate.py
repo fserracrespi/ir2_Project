@@ -65,8 +65,8 @@ for dataset_key, dataset_path in DATASETS.items():
 
     cfg = CONFIGS[dataset_key]
 
-    generated_path = ROOT / "generated_gpl/test" / dataset_key
-    bm25_generated_path = ROOT / "generated_gpl/test_bm25" / dataset_key
+    generated_path = ROOT / "generated_gpl/test_smoke" / dataset_key
+    bm25_generated_path = ROOT / "generated_gpl/test_bm25_smoke" / dataset_key
 
     bm25_generated_path.mkdir(parents=True, exist_ok=True)
 

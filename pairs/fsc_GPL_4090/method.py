@@ -11,7 +11,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 import testbed
 
 ROOT = HERE
-CHECKPOINT_DIR = ROOT / "runs" / "models" / "test"
+CHECKPOINT_DIR = ROOT / "runs" / "models" / "test_smoke"
 OUTPUT_DIR = ROOT / "runs/eval_test"
 
 

@@ -1,0 +1,58 @@
+{
+ "pair": "fsc_GPL_4090",
+ "method": "gpl_bm25_BGE_nneg40 (negatives_sweep)",
+ "datasets": {
+  "scifact": {
+   "n_queries": 300,
+   "ndcg10": 0.4624,
+   "recall100": 0.7654,
+   "baseline": {
+    "name": "bge",
+    "ndcg10": 0.7099,
+    "recall100": 0.9483
+   },
+   "ndcg10_vs_baseline": {
+    "delta": -0.2475,
+    "p": 2.2017998669021997e-23,
+    "ci95": [
+     -0.2918,
+     -0.2035
+    ]
+   },
+   "recall100_vs_baseline": {
+    "delta": -0.1829,
+    "p": 3.361497724088056e-14,
+    "ci95": [
+     -0.2283,
+     -0.1391
+    ]
+   }
+  },
+  "nfcorpus": {
+   "n_queries": 323,
+   "ndcg10": 0.3052,
+   "recall100": 0.2606,
+   "baseline": {
+    "name": "bge",
+    "ndcg10": 0.3403,
+    "recall100": 0.3044
+   },
+   "ndcg10_vs_baseline": {
+    "delta": -0.0352,
+    "p": 0.00011027208213332247,
+    "ci95": [
+     -0.0527,
+     -0.0173
+    ]
+   },
+   "recall100_vs_baseline": {
+    "delta": -0.0438,
+    "p": 1.0718653806099824e-05,
+    "ci95": [
+     -0.0641,
+     -0.0251
+    ]
+   }
+  }
+ }
+}

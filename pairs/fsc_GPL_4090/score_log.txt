@@ -1,0 +1,224 @@
+scifact   nDCG@10 0.657 vs bge 0.710: -0.052 [-0.0748, -0.0314] p=4.18e-06 · Recall@100 0.934 vs 0.948
+nfcorpus  nDCG@10 0.345 vs bge 0.340: +0.004 [-0.0058, 0.0149] p=0.392 · Recall@100 0.321 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_genq_BGE_vs_bge.json
+scifact   nDCG@10 0.657 vs rrf 0.718: -0.060 [-0.0893, -0.0312] p=5.51e-05 · Recall@100 0.934 vs 0.948
+nfcorpus  nDCG@10 0.345 vs ce 0.347: -0.002 [-0.0187, 0.0143] p=0.782 · Recall@100 0.321 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_genq_BGE_vs_best.json
+scifact   nDCG@10 0.639 vs minilm 0.646: -0.006 [-0.0295, 0.0162] p=0.587 · Recall@100 0.934 vs 0.925
+nfcorpus  nDCG@10 0.325 vs minilm 0.316: +0.008 [-0.0027, 0.0199] p=0.142 · Recall@100 0.302 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_genq_MiniLM_vs_minilm.json
+scifact   nDCG@10 0.639 vs rrf 0.718: -0.079 [-0.108, -0.0505] p=2.02e-07 · Recall@100 0.934 vs 0.948
+nfcorpus  nDCG@10 0.325 vs ce 0.347: -0.022 [-0.0406, -0.0053] p=0.012 · Recall@100 0.302 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_genq_MiniLM_vs_best.json
+scifact   nDCG@10 0.114 vs bge 0.710: -0.595 [-0.6444, -0.5456] p=2.89e-70 · Recall@100 0.259 vs 0.948
+nfcorpus  nDCG@10 0.090 vs bge 0.340: -0.250 [-0.2792, -0.2204] p=1.11e-44 · Recall@100 0.096 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_gpl_bm25_BGE_nneg50_vs_bge.json
+scifact   nDCG@10 0.114 vs rrf 0.718: -0.603 [-0.6513, -0.5543] p=7.3e-73 · Recall@100 0.259 vs 0.948
+nfcorpus  nDCG@10 0.090 vs ce 0.347: -0.257 [-0.2879, -0.2255] p=8.33e-43 · Recall@100 0.096 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_gpl_bm25_BGE_nneg50_vs_best.json
+scifact   nDCG@10 0.260 vs minilm 0.646: -0.386 [-0.435, -0.3368] p=1.18e-39 · Recall@100 0.465 vs 0.925
+nfcorpus  nDCG@10 0.179 vs minilm 0.316: -0.138 [-0.1622, -0.1139] p=1.78e-24 · Recall@100 0.124 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_gpl_bm25_MiniLM_nneg50_vs_minilm.json
+scifact   nDCG@10 0.260 vs rrf 0.718: -0.458 [-0.5067, -0.4105] p=1.07e-51 · Recall@100 0.465 vs 0.948
+nfcorpus  nDCG@10 0.179 vs ce 0.347: -0.169 [-0.1952, -0.1436] p=1.85e-30 · Recall@100 0.124 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_gpl_bm25_MiniLM_nneg50_vs_best.json
+scifact   nDCG@10 0.231 vs bge 0.710: -0.479 [-0.5307, -0.4269] p=2.89e-49 · Recall@100 0.424 vs 0.948
+nfcorpus  nDCG@10 0.155 vs bge 0.340: -0.185 [-0.2135, -0.1565] p=1.08e-30 · Recall@100 0.119 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_gpl_dense_BGE_nneg50_vs_bge.json
+scifact   nDCG@10 0.231 vs rrf 0.718: -0.487 [-0.5376, -0.4345] p=2.95e-51 · Recall@100 0.424 vs 0.948
+nfcorpus  nDCG@10 0.155 vs ce 0.347: -0.192 [-0.222, -0.1631] p=4.11e-30 · Recall@100 0.119 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_gpl_dense_BGE_nneg50_vs_best.json
+scifact   nDCG@10 0.337 vs minilm 0.646: -0.309 [-0.36, -0.258] p=5.8e-27 · Recall@100 0.604 vs 0.925
+nfcorpus  nDCG@10 0.204 vs minilm 0.316: -0.113 [-0.1349, -0.0906] p=1.84e-20 · Recall@100 0.148 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_gpl_dense_MiniLM_nneg50_vs_minilm.json
+scifact   nDCG@10 0.337 vs rrf 0.718: -0.381 [-0.4327, -0.33] p=2.71e-37 · Recall@100 0.604 vs 0.948
+nfcorpus  nDCG@10 0.204 vs ce 0.347: -0.143 [-0.168, -0.1196] p=1.83e-26 · Recall@100 0.148 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_ideal_gpl_dense_MiniLM_nneg50_vs_best.json
+scifact   nDCG@10 0.662 vs bge 0.710: -0.048 [-0.0708, -0.0257] p=3.97e-05 · Recall@100 0.935 vs 0.948
+nfcorpus  nDCG@10 0.345 vs bge 0.340: +0.004 [-0.0063, 0.0156] p=0.421 · Recall@100 0.326 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_genq_BGE_vs_bge.json
+scifact   nDCG@10 0.662 vs rrf 0.718: -0.056 [-0.086, -0.0258] p=0.00031 · Recall@100 0.935 vs 0.948
+nfcorpus  nDCG@10 0.345 vs ce 0.347: -0.002 [-0.0201, 0.0153] p=0.798 · Recall@100 0.326 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_genq_BGE_vs_best.json
+scifact   nDCG@10 0.637 vs minilm 0.646: -0.009 [-0.0333, 0.0147] p=0.457 · Recall@100 0.920 vs 0.925
+nfcorpus  nDCG@10 0.317 vs minilm 0.316: +0.001 [-0.0097, 0.0109] p=0.902 · Recall@100 0.304 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_genq_MiniLM_vs_minilm.json
+scifact   nDCG@10 0.637 vs rrf 0.718: -0.081 [-0.1116, -0.0518] p=2.7e-07 · Recall@100 0.920 vs 0.948
+nfcorpus  nDCG@10 0.317 vs ce 0.347: -0.030 [-0.0488, -0.0127] p=0.00101 · Recall@100 0.304 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_genq_MiniLM_vs_best.json
+scifact   nDCG@10 0.430 vs bge 0.710: -0.280 [-0.3269, -0.2343] p=1.77e-26 · Recall@100 0.731 vs 0.948
+nfcorpus  nDCG@10 0.294 vs bge 0.340: -0.046 [-0.0641, -0.028] p=8.41e-07 · Recall@100 0.253 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg10_vs_bge.json
+scifact   nDCG@10 0.430 vs rrf 0.718: -0.288 [-0.3345, -0.241] p=5.75e-27 · Recall@100 0.731 vs 0.948
+nfcorpus  nDCG@10 0.294 vs ce 0.347: -0.053 [-0.0762, -0.0299] p=8.94e-06 · Recall@100 0.253 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg10_vs_best.json
+scifact   nDCG@10 0.433 vs bge 0.710: -0.277 [-0.3231, -0.232] p=8.99e-27 · Recall@100 0.754 vs 0.948
+nfcorpus  nDCG@10 0.299 vs bge 0.340: -0.041 [-0.0591, -0.0235] p=6.6e-06 · Recall@100 0.254 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg20_vs_bge.json
+scifact   nDCG@10 0.433 vs rrf 0.718: -0.285 [-0.3304, -0.2382] p=5.05e-27 · Recall@100 0.754 vs 0.948
+nfcorpus  nDCG@10 0.299 vs ce 0.347: -0.048 [-0.0717, -0.0252] p=5.47e-05 · Recall@100 0.254 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg20_vs_best.json
+scifact   nDCG@10 0.458 vs bge 0.710: -0.252 [-0.2947, -0.208] p=2.72e-24 · Recall@100 0.775 vs 0.948
+nfcorpus  nDCG@10 0.298 vs bge 0.340: -0.042 [-0.0603, -0.0236] p=7.48e-06 · Recall@100 0.259 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg30_vs_bge.json
+scifact   nDCG@10 0.458 vs rrf 0.718: -0.259 [-0.3044, -0.2131] p=5.47e-24 · Recall@100 0.775 vs 0.948
+nfcorpus  nDCG@10 0.298 vs ce 0.347: -0.049 [-0.0729, -0.0252] p=6.1e-05 · Recall@100 0.259 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg30_vs_best.json
+scifact   nDCG@10 0.462 vs bge 0.710: -0.247 [-0.2918, -0.2035] p=2.2e-23 · Recall@100 0.765 vs 0.948
+nfcorpus  nDCG@10 0.305 vs bge 0.340: -0.035 [-0.0527, -0.0173] p=0.00011 · Recall@100 0.261 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg40_vs_bge.json
+scifact   nDCG@10 0.462 vs rrf 0.718: -0.255 [-0.3007, -0.2092] p=3.64e-23 · Recall@100 0.765 vs 0.948
+nfcorpus  nDCG@10 0.305 vs ce 0.347: -0.042 [-0.0655, -0.0186] p=0.000452 · Recall@100 0.261 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg40_vs_best.json
+scifact   nDCG@10 0.475 vs bge 0.710: -0.235 [-0.2778, -0.1925] p=7.96e-23 · Recall@100 0.800 vs 0.948
+nfcorpus  nDCG@10 0.305 vs bge 0.340: -0.035 [-0.0522, -0.0177] p=8.25e-05 · Recall@100 0.264 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg50_vs_bge.json
+scifact   nDCG@10 0.475 vs rrf 0.718: -0.242 [-0.2862, -0.1975] p=3.43e-22 · Recall@100 0.800 vs 0.948
+nfcorpus  nDCG@10 0.305 vs ce 0.347: -0.042 [-0.0648, -0.0194] p=0.000344 · Recall@100 0.264 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_BGE_nneg50_vs_best.json
+scifact   nDCG@10 0.426 vs minilm 0.646: -0.220 [-0.2642, -0.1764] p=1.14e-19 · Recall@100 0.766 vs 0.925
+nfcorpus  nDCG@10 0.266 vs minilm 0.316: -0.051 [-0.0672, -0.0337] p=1.51e-08 · Recall@100 0.251 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg10_vs_minilm.json
+scifact   nDCG@10 0.426 vs rrf 0.718: -0.292 [-0.339, -0.2478] p=2.82e-29 · Recall@100 0.766 vs 0.948
+nfcorpus  nDCG@10 0.266 vs ce 0.347: -0.081 [-0.1039, -0.0601] p=1.6e-12 · Recall@100 0.251 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg10_vs_best.json
+scifact   nDCG@10 0.438 vs minilm 0.646: -0.207 [-0.252, -0.1625] p=8.23e-18 · Recall@100 0.773 vs 0.925
+nfcorpus  nDCG@10 0.268 vs minilm 0.316: -0.049 [-0.0651, -0.0319] p=3.07e-08 · Recall@100 0.259 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg20_vs_minilm.json
+scifact   nDCG@10 0.438 vs rrf 0.718: -0.280 [-0.3259, -0.2345] p=4.78e-27 · Recall@100 0.773 vs 0.948
+nfcorpus  nDCG@10 0.268 vs ce 0.347: -0.079 [-0.102, -0.0584] p=3.95e-12 · Recall@100 0.259 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg20_vs_best.json
+scifact   nDCG@10 0.432 vs minilm 0.646: -0.213 [-0.2578, -0.1698] p=7.63e-19 · Recall@100 0.791 vs 0.925
+nfcorpus  nDCG@10 0.268 vs minilm 0.316: -0.049 [-0.0658, -0.0313] p=6.9e-08 · Recall@100 0.256 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg30_vs_minilm.json
+scifact   nDCG@10 0.432 vs rrf 0.718: -0.286 [-0.3316, -0.2402] p=6.33e-28 · Recall@100 0.791 vs 0.948
+nfcorpus  nDCG@10 0.268 vs ce 0.347: -0.080 [-0.1031, -0.0576] p=2.09e-11 · Recall@100 0.256 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg30_vs_best.json
+scifact   nDCG@10 0.441 vs minilm 0.646: -0.204 [-0.248, -0.1609] p=5.96e-18 · Recall@100 0.808 vs 0.925
+nfcorpus  nDCG@10 0.269 vs minilm 0.316: -0.047 [-0.064, -0.0307] p=6.88e-08 · Recall@100 0.260 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg40_vs_minilm.json
+scifact   nDCG@10 0.441 vs rrf 0.718: -0.276 [-0.3224, -0.2307] p=1.27e-26 · Recall@100 0.808 vs 0.948
+nfcorpus  nDCG@10 0.269 vs ce 0.347: -0.078 [-0.101, -0.057] p=1.28e-11 · Recall@100 0.260 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg40_vs_best.json
+scifact   nDCG@10 0.442 vs minilm 0.646: -0.203 [-0.2462, -0.1602] p=5.7e-18 · Recall@100 0.810 vs 0.925
+nfcorpus  nDCG@10 0.271 vs minilm 0.316: -0.045 [-0.0606, -0.0293] p=4.29e-08 · Recall@100 0.262 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg50_vs_minilm.json
+scifact   nDCG@10 0.442 vs rrf 0.718: -0.275 [-0.3211, -0.2307] p=6.67e-27 · Recall@100 0.810 vs 0.948
+nfcorpus  nDCG@10 0.271 vs ce 0.347: -0.076 [-0.0984, -0.0552] p=1.66e-11 · Recall@100 0.262 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_bm25_MiniLM_nneg50_vs_best.json
+scifact   nDCG@10 0.471 vs bge 0.710: -0.239 [-0.2819, -0.1968] p=3.55e-23 · Recall@100 0.819 vs 0.948
+nfcorpus  nDCG@10 0.303 vs bge 0.340: -0.037 [-0.0547, -0.0198] p=3.57e-05 · Recall@100 0.266 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg10_vs_bge.json
+scifact   nDCG@10 0.471 vs rrf 0.718: -0.247 [-0.2921, -0.2014] p=3.18e-22 · Recall@100 0.819 vs 0.948
+nfcorpus  nDCG@10 0.303 vs ce 0.347: -0.044 [-0.0667, -0.0218] p=0.000125 · Recall@100 0.266 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg10_vs_best.json
+scifact   nDCG@10 0.480 vs bge 0.710: -0.230 [-0.2713, -0.1884] p=1.31e-22 · Recall@100 0.832 vs 0.948
+nfcorpus  nDCG@10 0.306 vs bge 0.340: -0.035 [-0.0524, -0.0172] p=0.000126 · Recall@100 0.264 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg20_vs_bge.json
+scifact   nDCG@10 0.480 vs rrf 0.718: -0.237 [-0.2812, -0.1938] p=3.94e-22 · Recall@100 0.832 vs 0.948
+nfcorpus  nDCG@10 0.306 vs ce 0.347: -0.042 [-0.0644, -0.0194] p=0.000318 · Recall@100 0.264 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg20_vs_best.json
+scifact   nDCG@10 0.475 vs bge 0.710: -0.235 [-0.277, -0.1936] p=3.29e-23 · Recall@100 0.832 vs 0.948
+nfcorpus  nDCG@10 0.305 vs bge 0.340: -0.036 [-0.0535, -0.0182] p=7.91e-05 · Recall@100 0.267 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg30_vs_bge.json
+scifact   nDCG@10 0.475 vs rrf 0.718: -0.243 [-0.2858, -0.1981] p=8.58e-23 · Recall@100 0.832 vs 0.948
+nfcorpus  nDCG@10 0.305 vs ce 0.347: -0.043 [-0.0654, -0.0203] p=0.000252 · Recall@100 0.267 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg30_vs_best.json
+scifact   nDCG@10 0.487 vs bge 0.710: -0.223 [-0.2641, -0.1814] p=1.49e-21 · Recall@100 0.829 vs 0.948
+nfcorpus  nDCG@10 0.305 vs bge 0.340: -0.036 [-0.0537, -0.0182] p=8.67e-05 · Recall@100 0.274 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg40_vs_bge.json
+scifact   nDCG@10 0.487 vs rrf 0.718: -0.230 [-0.2728, -0.1865] p=1.79e-21 · Recall@100 0.829 vs 0.948
+nfcorpus  nDCG@10 0.305 vs ce 0.347: -0.043 [-0.0653, -0.02] p=0.000239 · Recall@100 0.274 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg40_vs_best.json
+scifact   nDCG@10 0.497 vs bge 0.710: -0.213 [-0.2548, -0.1723] p=1.41e-20 · Recall@100 0.847 vs 0.948
+nfcorpus  nDCG@10 0.303 vs bge 0.340: -0.037 [-0.0546, -0.0192] p=5.37e-05 · Recall@100 0.276 vs 0.304
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg50_vs_bge.json
+scifact   nDCG@10 0.497 vs rrf 0.718: -0.221 [-0.264, -0.1775] p=2.05e-20 · Recall@100 0.847 vs 0.948
+nfcorpus  nDCG@10 0.303 vs ce 0.347: -0.044 [-0.0669, -0.0211] p=0.000192 · Recall@100 0.276 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_BGE_nneg50_vs_best.json
+scifact   nDCG@10 0.421 vs minilm 0.646: -0.224 [-0.268, -0.1801] p=2.87e-20 · Recall@100 0.800 vs 0.925
+nfcorpus  nDCG@10 0.267 vs minilm 0.316: -0.049 [-0.0653, -0.0332] p=4.66e-09 · Recall@100 0.247 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg10_vs_minilm.json
+scifact   nDCG@10 0.421 vs rrf 0.718: -0.296 [-0.343, -0.25] p=5.58e-29 · Recall@100 0.800 vs 0.948
+nfcorpus  nDCG@10 0.267 vs ce 0.347: -0.080 [-0.1017, -0.0595] p=6.52e-13 · Recall@100 0.247 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg10_vs_best.json
+scifact   nDCG@10 0.429 vs minilm 0.646: -0.216 [-0.2589, -0.1735] p=2.71e-20 · Recall@100 0.819 vs 0.925
+nfcorpus  nDCG@10 0.269 vs minilm 0.316: -0.047 [-0.0636, -0.0311] p=4.02e-08 · Recall@100 0.251 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg20_vs_minilm.json
+scifact   nDCG@10 0.429 vs rrf 0.718: -0.289 [-0.3337, -0.2446] p=2e-29 · Recall@100 0.819 vs 0.948
+nfcorpus  nDCG@10 0.269 vs ce 0.347: -0.078 [-0.1, -0.0573] p=2.94e-12 · Recall@100 0.251 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg20_vs_best.json
+scifact   nDCG@10 0.434 vs minilm 0.646: -0.212 [-0.2549, -0.1693] p=1.46e-19 · Recall@100 0.819 vs 0.925
+nfcorpus  nDCG@10 0.272 vs minilm 0.316: -0.044 [-0.0607, -0.0282] p=2.04e-07 · Recall@100 0.253 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg30_vs_minilm.json
+scifact   nDCG@10 0.434 vs rrf 0.718: -0.284 [-0.3293, -0.24] p=1.5e-28 · Recall@100 0.819 vs 0.948
+nfcorpus  nDCG@10 0.272 vs ce 0.347: -0.075 [-0.0974, -0.0547] p=1.71e-11 · Recall@100 0.253 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg30_vs_best.json
+scifact   nDCG@10 0.446 vs minilm 0.646: -0.200 [-0.2436, -0.1564] p=2.79e-17 · Recall@100 0.834 vs 0.925
+nfcorpus  nDCG@10 0.272 vs minilm 0.316: -0.044 [-0.0604, -0.0279] p=2.48e-07 · Recall@100 0.255 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg40_vs_minilm.json
+scifact   nDCG@10 0.446 vs rrf 0.718: -0.272 [-0.3186, -0.2272] p=6.67e-26 · Recall@100 0.834 vs 0.948
+nfcorpus  nDCG@10 0.272 vs ce 0.347: -0.075 [-0.0969, -0.0543] p=1.93e-11 · Recall@100 0.255 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg40_vs_best.json
+scifact   nDCG@10 0.459 vs minilm 0.646: -0.186 [-0.2292, -0.1439] p=4.73e-16 · Recall@100 0.838 vs 0.925
+nfcorpus  nDCG@10 0.270 vs minilm 0.316: -0.046 [-0.0625, -0.0303] p=4.21e-08 · Recall@100 0.254 vs 0.311
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg50_vs_minilm.json
+scifact   nDCG@10 0.459 vs rrf 0.718: -0.258 [-0.3042, -0.2138] p=1.69e-24 · Recall@100 0.838 vs 0.948
+nfcorpus  nDCG@10 0.270 vs ce 0.347: -0.077 [-0.0995, -0.0564] p=1.07e-11 · Recall@100 0.254 vs 0.246
+arguana: no run file, skipped
+wrote pairs/fsc_GPL_4090/results_negatives_sweep_gpl_dense_MiniLM_nneg50_vs_best.json

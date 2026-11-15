@@ -126,8 +126,8 @@ for dataset_key, cfg in CONFIGS.items():
 
     GPL_STEPS = cfg["gpl_steps"]
 
-    generated_path = ROOT / "generated_gpl/test" / dataset_key
-    bm25_generated_path = ROOT / "generated_gpl/test_bm25" / dataset_key
+    generated_path = ROOT / "generated_gpl/test_smoke" / dataset_key
+    bm25_generated_path = ROOT / "generated_gpl/test_bm25_smoke" / dataset_key
 
     # Verify generation is complete
     for path in [generated_path, bm25_generated_path]:
@@ -146,9 +146,9 @@ for dataset_key, cfg in CONFIGS.items():
         print(f"{'=' * 50}")
 
         # Model outputs
-        gpl_output = ROOT / f"models/test/gpl_{model_name}" / dataset_key
-        genq_output = ROOT / f"models/test/genq_{model_name}" / dataset_key
-        bm25_output = ROOT / f"models/test/gpl_bm25_{model_name}" / dataset_key
+        gpl_output = ROOT / f"models/test_smoke/gpl_{model_name}" / dataset_key
+        genq_output = ROOT / f"models/test_smoke/genq_{model_name}" / dataset_key
+        bm25_output = ROOT / f"models/test_smoke/gpl_bm25_{model_name}" / dataset_key
 
         # A. GPL: DENSE NEGATIVES + MARGINMSE
 
