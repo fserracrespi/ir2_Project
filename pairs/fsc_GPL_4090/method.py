@@ -11,13 +11,13 @@ sys.path.insert(0, str(PROJECT_ROOT))
 import testbed
 
 ROOT = HERE
-CHECKPOINT_DIR = ROOT / "runs" / "models" / "test_smoke"
-OUTPUT_DIR = ROOT / "runs/eval_test"
+CHECKPOINT_DIR = ROOT / "runs" / "models_smoke"
+OUTPUT_DIR = ROOT / "runs/eval_test_smoke"
 
 
 # 1. CONFIGURATION
 
-DATASETS = ["scifact", "nfcorpus"]
+DATASETS = ["scifact", "nfcorpus","arguana"]
 
 MODELS = [
     "gpl_BGE",

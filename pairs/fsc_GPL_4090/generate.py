@@ -19,6 +19,7 @@ ROOT = WORK_DIR / "runs"
 DATASETS = {
     "scifact": str(PROJECT_ROOT / "data" / "scifact"),
     "nfcorpus": str(PROJECT_ROOT / "data" / "nfcorpus"),
+    "arguana": str(PROJECT_ROOT / "data" / "arguana"),
 }
 
 CONFIGS = {
@@ -30,7 +31,12 @@ CONFIGS = {
     "nfcorpus": {
         "new_size": 1816,
         "queries_per_passage": 4,
-        "gpl_steps": 227}}
+        "gpl_steps": 227},
+        
+    "arguana": {"new_size": 2892,
+                "queries_per_passage": 3,
+                "gpl_steps": 227}
+    }
 
 GENERATOR = "doc2query/msmarco-t5-base-v1"
 TEACHER = "cross-encoder/ms-marco-MiniLM-L6-v2"
@@ -41,7 +47,7 @@ QGEN_PREFIX = "query_gen"
 
 BATCH_GENERATION = 32
 BATCH_GPL = 32
-NEGATIVES_PER_QUERY = 10
+NEGATIVES_PER_QUERY = 50
 MAX_SEQ_LENGTH = 350
 
 
@@ -65,8 +71,8 @@ for dataset_key, dataset_path in DATASETS.items():
 
     cfg = CONFIGS[dataset_key]
 
-    generated_path = ROOT / "generated_gpl/test_smoke" / dataset_key
-    bm25_generated_path = ROOT / "generated_gpl/test_bm25_smoke" / dataset_key
+    generated_path = ROOT / "generated_gpl_smoke/test_smoke" / dataset_key
+    bm25_generated_path = ROOT / "generated_gpl_smoke/test_bm25_smoke" / dataset_key
 
     bm25_generated_path.mkdir(parents=True, exist_ok=True)
 

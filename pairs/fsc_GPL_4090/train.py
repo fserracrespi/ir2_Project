@@ -17,12 +17,12 @@ from gpl.toolkit import (
 WORK_DIR = Path(__file__).resolve().parent
 ROOT = WORK_DIR / "runs"
 
-CONFIGS = {"scifact": {"gpl_steps": 243}, "nfcorpus": {"gpl_steps": 227}}
+CONFIGS = {"scifact": {"gpl_steps": 8_000}, "nfcorpus": {"gpl_steps": 8_000}}
 STUDENTS = { "BGE": "BAAI/bge-small-en-v1.5", "MiniLM": "sentence-transformers/all-MiniLM-L6-v2"}
 
 QGEN_PREFIX = "query_gen"
 
-BATCH_GPL = 32
+BATCH_GPL = 16
 BATCH_GENQ = 16
 MAX_SEQ_LENGTH = 350
 
@@ -85,6 +85,7 @@ def train_genq(
     corpus, gen_queries, gen_qrels = GenericDataLoader(
         str(data_path),
         prefix=QGEN_PREFIX).load(split="train")
+
 
     model = load_sbert(
         student,
