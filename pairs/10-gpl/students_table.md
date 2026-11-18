@@ -1,6 +1,6 @@
 | Student | Modules | Pooling | Dim | Similarity | Normalized | Mean ‖q‖ | Score range | Max margin | Pos score | Neg score | Student margin |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Paper (GPL) | Transformer -> Pooling | mean | 768 | cosine | no | 11.02 | [-1, 1] | 2 | 0.78 | 0.66 | 0.12 |
+| Paper (GPL) | Transformer -> Pooling | mean | 768 | cosine | no | 11.02 | unbounded | unbounded | large | large | large |
 | BGE-small | Transformer -> Pooling -> Normalize | cls | 384 | cosine | yes | 1.00 | [-1, 1] | 2 | 0.74 | 0.56 | 0.19 |
 | MiniLM | Transformer -> Pooling -> Normalize | mean | 384 | cosine | yes | 1.00 | [-1, 1] | 2 | 0.49 | 0.07 | 0.42 |
 
